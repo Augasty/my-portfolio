@@ -15,20 +15,8 @@
 	const cookieEnabled = false;
 	$: showCookieModal = false;
 
-	const cssVariables = (node, variables) => {
-    setCssVariables(node, variables);
 
-    return {
-        update(variables) {
-            setCssVariables(node, variables);
-        }
-    };
-};
-	const setCssVariables = (node, variables) => {
-		for (const name in variables) {
-			node.style.setProperty(`--${name}`, variables[name]);
-		}
-	};
+
 
 	const copy = () => {
 		navigator.clipboard.writeText(Email);
@@ -49,27 +37,9 @@
 	// });
 </script>
 
-<svelte:body use:cssVariables={{ background: $customBackground }} />
 
-{#if showCookieModal && cookieEnabled}
-	<div class="cookieContainer">
-		<p>🍪 This website use <a href="privacy-policy">Cookies.</a></p>
-		<div
-			role="button"
-			tabindex="0"
-			on:keypress={() => {
-				showCookieModal = false;
-				localStorage.setItem('showCookieModal', 'false');
-			}}
-			on:click={() => {
-				showCookieModal = false;
-				localStorage.setItem('showCookieModal', 'false');
-			}}
-		>
-			&#10005;
-		</div>
-	</div>
-{/if}
+
+
 
 <Modal>
 	<div slot="content" class="modalContainer">
@@ -146,7 +116,7 @@
 		height: 100%;
 		overflow: auto;
 		font-family: 'Fira Code', monospace;
-		background-color: #0a0908;
+		background: #0a0908;
 		background-size: 200% 200%;
 		color: white;
 		margin: 0;
@@ -156,10 +126,6 @@
 		place-items: center;
 		height: 100%;
 		overflow-x: hidden;
-	}
-	:global(body.light){
-		background-color: #87CEEB;
-		color: #333;
 	}
 
 	:global(h1) {
@@ -227,32 +193,6 @@
 		visibility: hidden;
 	}
 
-	.cookieContainer {
-		background: white;
-		border-radius: 0px;
-		text-align: center;
-		width: 100%;
-		height: 30px;
-		color: black;
-		padding: 30px;
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		position: fixed;
-		bottom: 0px;
-		left: 0;
-		right: 0;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.cookieContainer > p > a {
-		text-decoration: underline;
-	}
-
-	.cookieContainer > div {
-		cursor: pointer;
-	}
-
 	footer {
 		font-size: 16px;
 		font-weight: 400;
@@ -279,24 +219,6 @@
 			visibility: visible;
 		}
 	}
-	@media (min-width: 600px) {
-		.cookieContainer {
-			background: white;
-			border-radius: 50px;
-			text-align: center;
-			width: 350px;
-			height: 30px;
-			color: black;
-			padding: 0 10px;
-			display: flex;
-			justify-content: space-evenly;
-			align-items: center;
-			position: fixed;
-			bottom: 50px;
-			left: 0;
-			right: 0;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
+
+	
 </style>

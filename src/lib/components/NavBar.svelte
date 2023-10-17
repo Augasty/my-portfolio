@@ -10,9 +10,7 @@
 
 <div class={opened ? 'NavBar open' : 'NavBar'}>
 	<div class="innerContainer">
-		<div>
-			<Toggle/>
-		</div>
+		<Toggle/>
 		<div class="burger">
 			<Burger bind:open={opened} />
 		</div>

@@ -9,12 +9,12 @@ import {toggleTheme} from "../theme"
 
   let isChecked = true;
   $: toggleValue.update(() => isChecked);
-  $: toggleTheme(curr_toggleValue)
+  // $: toggleTheme(curr_toggleValue)
 
 </script>
 
 <label class="fancy-dark-mode-toggle">
-  <input type="checkbox" bind:checked={curr_toggleValue} />
+  <input type="checkbox" on:click={()=>toggleTheme()}/>
   <span class="slider"></span>
 </label>
 
