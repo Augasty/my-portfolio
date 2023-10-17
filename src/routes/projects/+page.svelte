@@ -84,7 +84,7 @@
   color: white;
   background-color: #383737; /* Dark mode background color */
   padding: 2rem;
-  width: 100%;
+  width: 90vw;
   border-radius: 5px;
   transition: transform 0.2s ease-in-out;
   border-radius: 25px;
@@ -113,7 +113,7 @@
 	}
 
 	.techs {
-		display: flex;
+		/* display: flex; */
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -154,6 +154,9 @@
 	@media (min-width: 600px) {
 		.projects {
 			grid-template-columns: 1fr;
+		}
+		.project {
+			width: 70vw;
 		}
 	}
 </style>
