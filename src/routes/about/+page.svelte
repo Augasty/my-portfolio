@@ -77,4 +77,11 @@
 			font-size: 48px;
 		}
 	}
+
+	@media (max-width: 900px) {
+		h4{
+			width:80vw;
+			position: center;
+		}
+	}
 </style>

@@ -1,16 +1,5 @@
 <script>
-  import { toggleValue } from "../store";
 import {toggleTheme} from "../theme"
-  let curr_toggleValue = true;
-
-  toggleValue.subscribe((value) => {
-    curr_toggleValue = value;
-  });
-
-  let isChecked = true;
-  $: toggleValue.update(() => isChecked);
-  // $: toggleTheme(curr_toggleValue)
-
 </script>
 
 <label class="fancy-dark-mode-toggle">

@@ -6,6 +6,7 @@
 	export let segment;
 
 
+	// $: console.log(routes)
 </script>
 
 <div class={opened ? 'NavBar open' : 'NavBar'}>

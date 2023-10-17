@@ -114,4 +114,11 @@
 			max-width: none;
 		}
 	}
+
+	@media (max-width: 900px) {
+		h3{
+			width:80vw;
+			position: center;
+		}
+	}
 </style>

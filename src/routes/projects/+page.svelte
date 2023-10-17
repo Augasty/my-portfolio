@@ -1,5 +1,13 @@
 <script>
 	import projects from '$lib/Projects';
+  import { onMount } from 'svelte';
+  import { fixProjectTheme } from '../../lib/theme';
+
+	onMount(()=>{
+		fixProjectTheme()
+		// console.log('mounted')
+	}
+	)
 </script>
 
 <svelte:head>
@@ -48,12 +56,6 @@
 		text-align: center;
 	}
 
-	/* .note {
-		opacity: 0.5;
-		margin: 0;
-		max-width: 900px;
-		text-align: left;
-	} */
 
 	a {
 		text-decoration: none;

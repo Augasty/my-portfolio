@@ -1,13 +1,30 @@
 
-let theme = false
+let light_theme = false
 
+
+export const fixProjectTheme = () =>{
+  let elements = document.querySelectorAll('#project')
+  if(light_theme){
+    elements.forEach(ele=>{
+      // console.log('light-now')
+      ele.style.background = "#66CDAA"
+      ele.style.color =  "#333"
+    })
+  }else{
+    elements.forEach(ele=>{
+      ele.style.background = "#383737"
+      ele.style.color = "white"
+    }
+    )
+  }
+}
 
 export const toggleTheme = () => {
   if (typeof document == 'undefined') {
     return 
   }
   let elements = document.querySelectorAll('#project')
-    if (theme) {
+    if (light_theme) {
         document.body.style.background = "#0a0908"
         document.body.style.color = "white"
 
@@ -31,6 +48,6 @@ export const toggleTheme = () => {
         }
         console.log('now it should be light')
       }
-      theme = !theme
+      light_theme = !light_theme
 };
 
