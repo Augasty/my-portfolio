@@ -20,10 +20,10 @@ const projects = [
 		url: 'https://github.com/users/Augasty/packages/npm/package/augasty-custom-package'
 	},
 	{
-		title: 'TheBetterTube',
-		technologies: ['React', 'JavaScript','React-router','MaterialUI'],
-		description: 'A React.js web application that replicates the functionality of YouTube, featuring a modern UI built with MaterialUI and leveraging React Router for seamless navigation.',
-		url: 'https://thebettertubessg.netlify.app'
+		title: 'chatify',
+		technologies: ['React', 'JavaScript','Firebase'],
+		description: 'Chatify is a real-time chat application that allows users to communicate with each other seamlessly. It uses Firebase authentication to authenticate users and Firestore for database storage.',
+		url: 'https://chatify-by-sayak.netlify.app/'
 	}
 ];
 
