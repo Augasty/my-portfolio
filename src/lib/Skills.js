@@ -1,7 +1,7 @@
 const skills = {
-	programming: ['JavaScript', 'TypeScript', 'React.js','Redux', 'Svelte.js','Python'],
+	programming: ['JavaScript', 'TypeScript','Go','Gin', 'React.js','Redux', 'Svelte.js','Python'],
 	// devops: [],
-	databases: ['PostgreSQL'],
+	databases: ['Postgres','Firestore'],
 	// tools: [],
 	languages: ['English','Hindi','Bengali'],
 	other: ['Problem solving', 'User interface design','Client management']

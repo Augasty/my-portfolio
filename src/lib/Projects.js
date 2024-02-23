@@ -1,4 +1,13 @@
 const projects = [
+
+	{
+		title: 'Aurelius',
+		technologies: ['JavaScript','React','Redux','Firestore'],
+		description:
+			"Aurelius: Your intuitive project planner. Effortlessly track tasks, assign team members, and foster real-time collaboration. From individual tasks to the big picture, streamline your project journey with ease.",
+			additionalInfo: "Launched on Product Hunt with about 50 active users.",
+			url:"https://www.producthunt.com/products/aurelius",
+	},
 	{
 		title: 'Budget-Brilliant',
 		technologies: ['React', 'JavaScript', 'MaterialUI'],
@@ -14,10 +23,10 @@ const projects = [
 		url: 'https://mismatched-match-pairs.netlify.app/'
 	},
 	{
-		title: 'augasty-custom-package',
-		technologies: ['React', 'JavaScript','Rollup.js','Babel'],
-		description: 'Some reusable components to use in other projects',
-		url: 'https://github.com/users/Augasty/packages/npm/package/augasty-custom-package'
+		title: 'go-jwt-todo',
+		technologies: ['Go', 'Gin','Gorm'],
+		description: 'A backend server with CRUD functionalities and authentication with JWT token.',
+		url: 'https://github.com/Augasty/go-jwt-todo'
 	},
 	{
 		title: 'chatify',

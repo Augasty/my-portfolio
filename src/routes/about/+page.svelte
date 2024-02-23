@@ -10,9 +10,9 @@
 	<main>
 		<h1>About</h1>
 		<h4>
-			I'm a Software developer with over 1 year of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Kolkata and currently working
-			at PwC and coding in React.js, Svelte.js and Python.
+			I'm a Software developer with over 1+ years of front-end development experience, experienced in
+			both enterprise and open-source software development. I'm currently working
+			at PwC and have expertise in Javascript, TypeScript, React.js, Redux, Go, and Gin.
 			I also have a knack for designing and sketching.
 		</h4>
 		<h2>Skills</h2>
