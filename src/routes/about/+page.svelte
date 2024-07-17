@@ -65,6 +65,7 @@ Currently working at PwC, I am also passionate about design, UX, and frontend de
 	.list {
 		display: flex;
 		flex-direction: column;
+		flex-wrap: wrap;
 		gap: 30px;
 	}
 

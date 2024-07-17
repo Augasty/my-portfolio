@@ -10,8 +10,7 @@ const skills = {
 		"Scrum"
 	  ],
 	Technical: ['JavaScript', 'TypeScript', 'React.js','Redux', 'Svelte.js','Python','Postgres','Firestore'],
-	// devops: [],
-	// tools: [],
+	tools: ['VS Code','Figma','Visio','MS Office'],
 	languages: ['English','Hindi','Bengali'],
 	other: ['Problem solving', 'User interface design','Client management']
 };
