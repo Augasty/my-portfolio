@@ -10,7 +10,11 @@ const routes = [
 	{
 		href: '/about',
 		label: 'About'
-	}
+	},
+	// {
+	// 	href: '/blog',
+	// 	label: 'Blogs'
+	// }
 ];
 
 export default routes;

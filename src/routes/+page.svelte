@@ -12,7 +12,7 @@
 	<title>Sayak - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Sayak, an engineer.</h1>
+	<h1>Hi!✋ <br /> I'm Sayak, a product manager.</h1>
 	<h3>A fun fact about me: My username 'Augasty' is the shortened version of
 		Augasty Kenasp, which is an anagram of 'Sayak Sengupta'.</h3>
 	<div class="icons">

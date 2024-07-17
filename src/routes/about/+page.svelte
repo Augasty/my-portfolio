@@ -10,10 +10,9 @@
 	<main>
 		<h1>About</h1>
 		<h4>
-			I'm a Software developer with over 1+ years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm currently working
-			at PwC and have expertise in Javascript, TypeScript, React.js, Redux, Go, and Gin.
-			I also have a knack for designing and sketching.
+I'm a creative problem solver and product owner with over 2 years of experience in developing and delivering scalable products, with a focus on agile product delivery. Skilled in collaborating with stakeholders to prioritize product features based on user feedback, creating user-centric experiences, and building strong client relationships.
+
+Currently working at PwC, I am also passionate about design, UX, and frontend development.
 		</h4>
 		<h2>Skills</h2>
 		<!-- The Object.entries() static method returns an array of a given object's own enumerable string-keyed property key-value pairs. -->
